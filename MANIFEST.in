@@ -1,0 +1,19 @@
+include LICENSE
+include CITATION.cff
+include CITATION.bib
+include .zenodo.json
+include codemeta.json
+include AUTHORS.md
+include CONTRIBUTING.md
+include SECURITY.md
+include SUPPORT.md
+include RELEASE_NOTES_v1.13.2.md
+include CHANGELOG.md
+include CHI_SQUARE_METHOD.md
+recursive-include assets *.png *.ico
+recursive-include eis_studio/assets *.png *.ico
+recursive-include docs *.md
+include sample_cholesterol_2.5mM.csv
+include sample_manual_circuit.json
+include sample_mott_schottky.csv
+include sample_potential_zre_zim.txt

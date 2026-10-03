@@ -1,0 +1,59 @@
+{
+  "name": "Cholesterol sensor fractional Randles",
+  "tree": {
+    "type": "series",
+    "label": "Series circuit",
+    "children": [
+      {
+        "type": "element",
+        "kind": "R",
+        "id": "Rs",
+        "params": ["Rs"]
+      },
+      {
+        "type": "parallel",
+        "branches": [
+          {
+            "type": "series",
+            "label": "Branch 1",
+            "children": [
+              {
+                "type": "element",
+                "kind": "R",
+                "id": "Rct",
+                "params": ["Rct"]
+              }
+            ]
+          },
+          {
+            "type": "series",
+            "label": "Branch 2",
+            "children": [
+              {
+                "type": "element",
+                "kind": "CPE",
+                "id": "CPE",
+                "params": ["Q", "alpha"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "kind": "Wβ",
+        "id": "Wβ",
+        "params": ["Aw", "beta"]
+      }
+    ]
+  },
+  "values": {
+    "Rs": 20.0,
+    "Rct": 300.0,
+    "Q": 0.00001,
+    "alpha": 0.88,
+    "Aw": 50.0,
+    "beta": 0.5
+  },
+  "locks": []
+}

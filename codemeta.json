@@ -1,0 +1,33 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "EIS Gold Studio",
+  "version": "1.13.2",
+  "description": "Desktop software for auditable electrochemical impedance spectroscopy analysis and equivalent-circuit fitting.",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Ali",
+      "familyName": "Afruz",
+      "email": "a.a.afruz@gmail.com"
+    }
+  ],
+  "datePublished": "2026-10-04",
+  "license": "https://spdx.org/licenses/MIT",
+  "programmingLanguage": "Python 3",
+  "runtimePlatform": "Python >=3.10",
+  "applicationCategory": "Scientific software",
+  "operatingSystem": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "keywords": [
+    "electrochemical impedance spectroscopy",
+    "equivalent circuit",
+    "Mott-Schottky",
+    "DRT",
+    "Warburg",
+    "transmission line"
+  ]
+}

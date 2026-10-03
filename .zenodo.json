@@ -1,0 +1,22 @@
+{
+  "title": "EIS Gold Studio",
+  "description": "An auditable desktop environment for electrochemical impedance spectroscopy import, visualization, equivalent-circuit fitting, model comparison, distributed-process screening, Mott-Schottky analysis, paired analysis, and global fitting of DC-bias series.",
+  "creators": [
+    {
+      "name": "Afruz, Ali"
+    }
+  ],
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "version": "1.13.2",
+  "keywords": [
+    "electrochemical impedance spectroscopy",
+    "EIS",
+    "equivalent circuit",
+    "distribution of relaxation times",
+    "Mott-Schottky",
+    "Warburg impedance",
+    "transmission-line model"
+  ]
+}
