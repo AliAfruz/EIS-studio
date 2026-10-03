@@ -21,10 +21,15 @@ The original v1.13.2 changelog records 40 passing regression tests. During prepa
 
 The repository includes a clean GitHub Actions matrix for Python 3.10, 3.11, and 3.12. The first GitHub release must not be published until that workflow completes successfully on the exact release commit.
 
-## Metadata still requiring owner confirmation
+## Confirmed publication metadata
 
-- Confirm that the public author form should be **Ali Afruz**.
-- Add an ORCID only if the author supplies and verifies it.
-- Add the final GitHub repository URL after repository creation.
-- Add funding identifiers, affiliations, and Zenodo communities only when verified.
+- First creator: **Ali Afruz**, University of Mohaghegh Ardabili.
+- Second creator: **Maryam Kaffash Jamshid**.
+- Canonical source repository: `https://github.com/AliAfruz/EIS-studio`.
+
+## Metadata still requiring confirmation
+
+- Add creator ORCIDs only if each creator supplies and verifies the exact identifier.
+- Add Maryam Kaffash Jamshid's affiliation only when confirmed.
+- Add funding identifiers and Zenodo communities only when verified.
 - Add the Zenodo DOI only after the first archived release is published.

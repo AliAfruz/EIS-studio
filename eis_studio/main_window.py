@@ -273,13 +273,14 @@ class MainWindow(QMainWindow):
 
         self.signature_label = QLabel(
             'Developed by <a href="https://www.linkedin.com/in/ali-afruz/">A. Afruz</a>'
+            ' &amp; M. Kaffash Jamshid'
             ' &nbsp;·&nbsp; <a href="mailto:a.a.afruz@gmail.com">Email</a>'
             ' &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/ali-afruz/">LinkedIn</a>'
         )
         self.signature_label.setTextFormat(Qt.RichText)
         self.signature_label.setOpenExternalLinks(True)
         self.signature_label.setToolTip(
-            "A. Afruz | a.a.afruz@gmail.com | linkedin.com/in/ali-afruz"
+            "A. Afruz and M. Kaffash Jamshid | a.a.afruz@gmail.com | linkedin.com/in/ali-afruz"
         )
         self.statusBar().addPermanentWidget(self.signature_label)
 
@@ -923,7 +924,8 @@ class MainWindow(QMainWindow):
         layout.addWidget(description)
 
         developer = QLabel(
-            '<p style="text-align:center"><b>Developed by A. Afruz</b><br>'
+            '<p style="text-align:center"><b>Developed by A. Afruz and M. Kaffash Jamshid</b><br>'
+            'A. Afruz — University of Mohaghegh Ardabili<br>'
             '<a href="mailto:a.a.afruz@gmail.com">a.a.afruz@gmail.com</a><br>'
             '<a href="https://www.linkedin.com/in/ali-afruz/">'
             'linkedin.com/in/ali-afruz</a></p>'

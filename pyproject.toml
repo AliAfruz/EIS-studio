@@ -10,7 +10,8 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = { file = "LICENSE" }
 authors = [
-  { name = "Ali Afruz", email = "a.a.afruz@gmail.com" }
+  { name = "Ali Afruz", email = "a.a.afruz@gmail.com" },
+  { name = "Maryam Kaffash Jamshid" }
 ]
 keywords = [
   "electrochemistry",
@@ -41,6 +42,12 @@ dependencies = [
   "matplotlib>=3.8",
   "openpyxl>=3.1"
 ]
+
+[project.urls]
+Homepage = "https://github.com/AliAfruz/EIS-studio"
+Repository = "https://github.com/AliAfruz/EIS-studio.git"
+Issues = "https://github.com/AliAfruz/EIS-studio/issues"
+Documentation = "https://github.com/AliAfruz/EIS-studio/tree/main/docs"
 
 [project.optional-dependencies]
 test = [

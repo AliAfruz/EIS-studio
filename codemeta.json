@@ -9,11 +9,21 @@
       "@type": "Person",
       "givenName": "Ali",
       "familyName": "Afruz",
-      "email": "a.a.afruz@gmail.com"
+      "email": "a.a.afruz@gmail.com",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Mohaghegh Ardabili"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Maryam",
+      "familyName": "Kaffash Jamshid"
     }
   ],
   "datePublished": "2026-10-04",
   "license": "https://spdx.org/licenses/MIT",
+  "codeRepository": "https://github.com/AliAfruz/EIS-studio",
   "programmingLanguage": "Python 3",
   "runtimePlatform": "Python >=3.10",
   "applicationCategory": "Scientific software",

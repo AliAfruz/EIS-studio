@@ -11,9 +11,13 @@ authors:
   - family-names: "Afruz"
     given-names: "Ali"
     email: "a.a.afruz@gmail.com"
+    affiliation: "University of Mohaghegh Ardabili"
+  - family-names: "Kaffash Jamshid"
+    given-names: "Maryam"
 version: 1.13.2
 date-released: 2026-10-04
 license: MIT
+repository-code: "https://github.com/AliAfruz/EIS-studio"
 keywords:
   - electrochemical impedance spectroscopy
   - EIS

@@ -2,7 +2,7 @@
 
 **Version 1.13.2 · Research software · MIT License**
 
-EIS Gold Studio is released as open research software by **Ali Afruz**. If the software contributes to a publication, cite the archived software release described in [`CITATION.cff`](CITATION.cff). Zenodo metadata are provided in [`.zenodo.json`](.zenodo.json); the DOI must be added only after Zenodo has archived the first GitHub release.
+EIS Gold Studio is released as open research software by **Ali Afruz** (University of Mohaghegh Ardabili) and **Maryam Kaffash Jamshid**. The canonical repository is [github.com/AliAfruz/EIS-studio](https://github.com/AliAfruz/EIS-studio). If the software contributes to a publication, cite the archived software release described in [`CITATION.cff`](CITATION.cff). Zenodo metadata are provided in [`.zenodo.json`](.zenodo.json); the DOI must be added only after Zenodo has archived the first GitHub release.
 
 The complete scientific equations, fitting algorithm, uncertainty treatment, TLM definition, Mott–Schottky workflow, global DC-series algorithm, and reporting limits are documented in [`docs/SCIENTIFIC_METHODS.md`](docs/SCIENTIFIC_METHODS.md). Validation requirements and known limitations are listed in [`docs/VALIDATION.md`](docs/VALIDATION.md).
 

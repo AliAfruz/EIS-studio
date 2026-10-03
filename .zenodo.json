@@ -3,7 +3,11 @@
   "description": "An auditable desktop environment for electrochemical impedance spectroscopy import, visualization, equivalent-circuit fitting, model comparison, distributed-process screening, Mott-Schottky analysis, paired analysis, and global fitting of DC-bias series.",
   "creators": [
     {
-      "name": "Afruz, Ali"
+      "name": "Afruz, Ali",
+      "affiliation": "University of Mohaghegh Ardabili"
+    },
+    {
+      "name": "Kaffash Jamshid, Maryam"
     }
   ],
   "upload_type": "software",

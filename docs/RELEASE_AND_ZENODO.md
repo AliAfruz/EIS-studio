@@ -4,9 +4,9 @@ This repository is prepared for a GitHub release that can be archived automatica
 
 ## 1. Complete metadata before publishing
 
-1. Confirm the author name and email in `CITATION.cff`, `.zenodo.json`, `codemeta.json`, `pyproject.toml`, `AUTHORS.md`, and `LICENSE`.
+1. Confirm the creator order, names, email, and affiliations in `CITATION.cff`, `.zenodo.json`, `codemeta.json`, `pyproject.toml`, `AUTHORS.md`, and `LICENSE`.
 2. Add an ORCID only after the author has confirmed the exact identifier.
-3. Add the final GitHub repository URL to `codemeta.json` after the remote repository exists.
+3. Confirm the repository URL is `https://github.com/AliAfruz/EIS-studio`.
 4. Add funding and community identifiers to `.zenodo.json` only when verified.
 5. Do not invent a DOI. Zenodo assigns it after archiving the release.
 
@@ -25,13 +25,13 @@ Also confirm that `.zenodo.json` and `codemeta.json` are valid JSON and inspect 
 
 ## 3. Publish on GitHub
 
-Create an empty GitHub repository, then from this project directory run:
+The configured GitHub repository is `https://github.com/AliAfruz/EIS-studio.git`. From this project directory run:
 
 ```bash
 git init -b main
 git add .
 git commit -m "Release EIS Gold Studio v1.13.2"
-git remote add origin YOUR_GITHUB_REPOSITORY_URL
+git remote add origin https://github.com/AliAfruz/EIS-studio.git
 git push -u origin main
 ```
 
