@@ -21,7 +21,9 @@ The release commit passed the Python 3.10, 3.11, and 3.12 regression jobs and th
 ## 2. Validate locally
 
 ```bash
-python -m pip install -e ".[test,release]"
+python -m pip install -e ".[test,release,metadata]"
+cffconvert --validate -i CITATION.cff
+python scripts/check_metadata.py
 python -m pytest
 python -m build
 python -m twine check dist/*
@@ -62,7 +64,22 @@ After Zenodo assigns the DOI:
 
 Use a version-specific DOI when citing an exact software release. Use the concept DOI when the citation should resolve to the latest archived version.
 
-The existing citation files use the v1.13.2 version DOI, while the README badge uses the concept DOI. Before a future release, update the version/date metadata and remove the old version DOI from citation fields until the new archive has its own DOI. Keep the concept DOI as the stable project identifier.
+The existing citation files use the v1.13.2 version DOI, while the README badge uses the concept DOI. Before a future release, update the version/date metadata and release commit, and update the citation and package URLs to refer to the intended release. Replace the old version DOI when the new archive has its own DOI. Keep the concept DOI as the stable project identifier. `.zenodo.json` deliberately has no `doi` field, so a future release can receive a fresh version DOI.
+
+## 6. Update the existing Zenodo record's metadata
+
+GitHub commits made after publication are available for future releases. Zenodo's **Sync now** action refreshes the repository list; it does not re-import citation metadata from `main` into an already archived release.
+
+To add Ali Afruz's ORCID to the existing v1.13.2 record:
+
+1. Sign in to Zenodo and open [the published v1.13.2 record](https://zenodo.org/records/23154102).
+2. Click **Edit** and edit the creator **Ali Afruz**.
+3. Add the ORCID identifier `0000-0002-2969-8428`; keep the affiliation **University of Mohaghegh Ardabili** and creator order unchanged.
+4. Click the green **Publish** button to make the metadata update public. The record keeps its existing DOI.
+
+See Zenodo's [instructions for editing GitHub release metadata](https://support.zenodo.org/help/en-gb/24-github-integration/71-how-can-i-edit-the-metadata-of-a-github-release-in-zenodo) and [editing published records](https://help.zenodo.org/docs/deposit/manage-records/#edit).
+
+Ali Afruz's ORCID is included in both `.zenodo.json` and `CITATION.cff`. `.zenodo.json` controls future GitHub-release imports because it is present in this repository. No new software version is needed solely to edit the existing record's creator metadata.
 
 ## Manual Zenodo alternative
 

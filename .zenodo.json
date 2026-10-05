@@ -4,6 +4,7 @@
   "creators": [
     {
       "name": "Afruz, Ali",
+      "orcid": "0000-0002-2969-8428",
       "affiliation": "University of Mohaghegh Ardabili"
     },
     {
@@ -12,8 +13,9 @@
   ],
   "upload_type": "software",
   "access_right": "open",
-  "license": "MIT",
+  "license": "mit",
   "version": "1.13.2",
+  "publication_date": "2026-10-05",
   "keywords": [
     "electrochemical impedance spectroscopy",
     "EIS",

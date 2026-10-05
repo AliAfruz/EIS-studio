@@ -14,11 +14,13 @@ authors = [
   { name = "Maryam Kaffash Jamshid" }
 ]
 keywords = [
-  "electrochemistry",
-  "impedance spectroscopy",
+  "electrochemical impedance spectroscopy",
+  "EIS",
   "equivalent circuit",
+  "distribution of relaxation times",
   "Mott-Schottky",
-  "distribution of relaxation times"
+  "Warburg impedance",
+  "transmission-line model"
 ]
 classifiers = [
   "Development Status :: 4 - Beta",
@@ -48,6 +50,9 @@ Homepage = "https://github.com/AliAfruz/EIS-studio"
 Repository = "https://github.com/AliAfruz/EIS-studio.git"
 Issues = "https://github.com/AliAfruz/EIS-studio/issues"
 Documentation = "https://github.com/AliAfruz/EIS-studio/tree/main/docs"
+"Version DOI" = "https://doi.org/10.5281/zenodo.23154102"
+"All versions DOI" = "https://doi.org/10.5281/zenodo.23154101"
+"Ali Afruz ORCID" = "https://orcid.org/0000-0002-2969-8428"
 
 [project.optional-dependencies]
 test = [
@@ -56,6 +61,12 @@ test = [
 release = [
   "build>=1.2",
   "twine>=5.0"
+]
+metadata = [
+  "cffconvert>=2.0,<3",
+  "PyYAML>=6.0",
+  "bibtexparser>=1.4,<2",
+  "tomli>=2.0; python_version < '3.11'"
 ]
 
 [project.gui-scripts]

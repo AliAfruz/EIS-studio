@@ -13,6 +13,7 @@ include CHI_SQUARE_METHOD.md
 recursive-include assets *.png *.ico
 recursive-include eis_studio/assets *.png *.ico
 recursive-include docs *.md
+recursive-include scripts *.py
 include sample_cholesterol_2.5mM.csv
 include sample_manual_circuit.json
 include sample_mott_schottky.csv

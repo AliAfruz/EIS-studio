@@ -24,6 +24,7 @@ The released commit `36b3237fcfd6a36b011249294d649b3a493035ce` subsequently pass
 ## Confirmed publication metadata
 
 - First creator: **Ali Afruz**, University of Mohaghegh Ardabili.
+- Ali Afruz's ORCID: [0000-0002-2969-8428](https://orcid.org/0000-0002-2969-8428), supplied by the creator and matched to the public ORCID record's given name **Ali** and family name **Afruz**.
 - Second creator: **Maryam Kaffash Jamshid**.
 - Canonical source repository: `https://github.com/AliAfruz/EIS-studio`.
 - Published archive: **5 October 2026**, version **1.13.2**, MIT License.
@@ -32,8 +33,12 @@ The released commit `36b3237fcfd6a36b011249294d649b3a493035ce` subsequently pass
 
 The DOI registration, creator order, Ali Afruz's affiliation, version, issue date, license, and version/concept relationship were verified against the public DataCite registry. The DOI badge and citation metadata were added to `main` after archiving; the published release tag and its archived files retain their original contents.
 
+The ORCID update uses the bare identifier in `.zenodo.json` and the canonical HTTPS URI in `CITATION.cff` and CodeMeta's author `@id`. The title, full software description, creator order, keywords, version, and publication date agree across the structured citation files. The Python package retains a shorter summary description and supplies both DOI links and Ali Afruz's ORCID as project URLs. The published v1.13.2 tag is the release commit recorded in `CITATION.cff`.
+
+The GitHub Actions metadata job validates `CITATION.cff` against its official schema with `cffconvert`, then runs `scripts/check_metadata.py` to check publication metadata agreement, including author order, affiliations, contact email, ORCID format/checksum, application/package versions, keywords, publication dates, SPDX license and version/concept DOI links. These checks do not infer missing creator information.
+
 ## Metadata still requiring confirmation
 
-- Add creator ORCIDs only if each creator supplies and verifies the exact identifier.
+- Add Maryam Kaffash Jamshid's ORCID only if she supplies and verifies the exact identifier.
 - Add Maryam Kaffash Jamshid's affiliation only when confirmed.
 - Add funding identifiers and Zenodo communities only when verified.

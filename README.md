@@ -4,7 +4,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23154101.svg)](https://doi.org/10.5281/zenodo.23154101)
 
-EIS Gold Studio is released as open research software by **Ali Afruz** (University of Mohaghegh Ardabili) and **Maryam Kaffash Jamshid**. The canonical repository is [github.com/AliAfruz/EIS-studio](https://github.com/AliAfruz/EIS-studio). Version 1.13.2 was archived on Zenodo on 5 October 2026. If the software contributes to a publication, cite the exact archived release using [`CITATION.cff`](CITATION.cff) or [`CITATION.bib`](CITATION.bib). Archive metadata are provided in [`.zenodo.json`](.zenodo.json).
+EIS Gold Studio is released as open research software by **Ali Afruz** (University of Mohaghegh Ardabili; [ORCID: 0000-0002-2969-8428](https://orcid.org/0000-0002-2969-8428)) and **Maryam Kaffash Jamshid**. The canonical repository is [github.com/AliAfruz/EIS-studio](https://github.com/AliAfruz/EIS-studio). Version 1.13.2 was archived on Zenodo on 5 October 2026. If the software contributes to a publication, cite the exact archived release using [`CITATION.cff`](CITATION.cff) or [`CITATION.bib`](CITATION.bib). Archive metadata are provided in [`.zenodo.json`](.zenodo.json).
 
 The complete scientific equations, fitting algorithm, uncertainty treatment, TLM definition, Mott–Schottky workflow, global DC-series algorithm, and reporting limits are documented in [`docs/SCIENTIFIC_METHODS.md`](docs/SCIENTIFIC_METHODS.md). Validation requirements and known limitations are listed in [`docs/VALIDATION.md`](docs/VALIDATION.md).
 

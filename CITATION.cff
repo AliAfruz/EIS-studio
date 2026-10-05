@@ -3,19 +3,21 @@ message: "If you use EIS Gold Studio in research, please cite this software rele
 type: software
 title: "EIS Gold Studio"
 abstract: >-
-  A desktop environment for auditable electrochemical impedance spectroscopy
+  An auditable desktop environment for electrochemical impedance spectroscopy
   import, visualization, equivalent-circuit fitting, model comparison,
   distributed-process screening, Mott-Schottky analysis, paired analysis, and
   global fitting of DC-bias series.
 authors:
   - family-names: "Afruz"
     given-names: "Ali"
+    orcid: "https://orcid.org/0000-0002-2969-8428"
     email: "a.a.afruz@gmail.com"
     affiliation: "University of Mohaghegh Ardabili"
   - family-names: "Kaffash Jamshid"
     given-names: "Maryam"
 version: 1.13.2
 date-released: 2026-10-05
+commit: "36b3237fcfd6a36b011249294d649b3a493035ce"
 doi: 10.5281/zenodo.23154102
 identifiers:
   - type: doi
