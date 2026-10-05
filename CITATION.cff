@@ -15,7 +15,12 @@ authors:
   - family-names: "Kaffash Jamshid"
     given-names: "Maryam"
 version: 1.13.2
-date-released: 2026-10-04
+date-released: 2026-10-05
+doi: 10.5281/zenodo.23154102
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23154101
+    description: "Concept DOI covering all archived versions of EIS Gold Studio."
 license: MIT
 repository-code: "https://github.com/AliAfruz/EIS-studio"
 keywords:

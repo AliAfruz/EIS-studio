@@ -1,7 +1,7 @@
 # Publication-package audit
 
 **Package:** EIS Gold Studio v1.13.2  
-**Audit date:** 4 October 2026
+**Audit date:** 5 October 2026
 
 ## Completed checks
 
@@ -19,17 +19,21 @@
 
 The original v1.13.2 changelog records 40 passing regression tests. During preparation of this publication package, a fresh local test environment was attempted, but the external package download was repeatedly reset while fetching the Matplotlib `fonttools` dependency. Therefore, the complete suite was **not independently re-executed in the packaging environment**.
 
-The repository includes a clean GitHub Actions matrix for Python 3.10, 3.11, and 3.12. The first GitHub release must not be published until that workflow completes successfully on the exact release commit.
+The released commit `36b3237fcfd6a36b011249294d649b3a493035ce` subsequently passed all regression jobs on Python 3.10, 3.11, and 3.12, plus the distribution build and Twine check, in [GitHub Actions run 37172266192](https://github.com/AliAfruz/EIS-studio/actions/runs/37172266192). The v1.13.2 GitHub release points to that tested commit.
 
 ## Confirmed publication metadata
 
 - First creator: **Ali Afruz**, University of Mohaghegh Ardabili.
 - Second creator: **Maryam Kaffash Jamshid**.
 - Canonical source repository: `https://github.com/AliAfruz/EIS-studio`.
+- Published archive: **5 October 2026**, version **1.13.2**, MIT License.
+- Version DOI: [10.5281/zenodo.23154102](https://doi.org/10.5281/zenodo.23154102).
+- Concept DOI (all versions): [10.5281/zenodo.23154101](https://doi.org/10.5281/zenodo.23154101).
+
+The DOI registration, creator order, Ali Afruz's affiliation, version, issue date, license, and version/concept relationship were verified against the public DataCite registry. The DOI badge and citation metadata were added to `main` after archiving; the published release tag and its archived files retain their original contents.
 
 ## Metadata still requiring confirmation
 
 - Add creator ORCIDs only if each creator supplies and verifies the exact identifier.
 - Add Maryam Kaffash Jamshid's affiliation only when confirmed.
 - Add funding identifiers and Zenodo communities only when verified.
-- Add the Zenodo DOI only after the first archived release is published.

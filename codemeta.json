@@ -21,7 +21,8 @@
       "familyName": "Kaffash Jamshid"
     }
   ],
-  "datePublished": "2026-10-04",
+  "datePublished": "2026-10-05",
+  "identifier": "https://doi.org/10.5281/zenodo.23154102",
   "license": "https://spdx.org/licenses/MIT",
   "codeRepository": "https://github.com/AliAfruz/EIS-studio",
   "programmingLanguage": "Python 3",

@@ -2,7 +2,9 @@
 
 **Version 1.13.2 · Research software · MIT License**
 
-EIS Gold Studio is released as open research software by **Ali Afruz** (University of Mohaghegh Ardabili) and **Maryam Kaffash Jamshid**. The canonical repository is [github.com/AliAfruz/EIS-studio](https://github.com/AliAfruz/EIS-studio). If the software contributes to a publication, cite the archived software release described in [`CITATION.cff`](CITATION.cff). Zenodo metadata are provided in [`.zenodo.json`](.zenodo.json); the DOI must be added only after Zenodo has archived the first GitHub release.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23154101.svg)](https://doi.org/10.5281/zenodo.23154101)
+
+EIS Gold Studio is released as open research software by **Ali Afruz** (University of Mohaghegh Ardabili) and **Maryam Kaffash Jamshid**. The canonical repository is [github.com/AliAfruz/EIS-studio](https://github.com/AliAfruz/EIS-studio). Version 1.13.2 was archived on Zenodo on 5 October 2026. If the software contributes to a publication, cite the exact archived release using [`CITATION.cff`](CITATION.cff) or [`CITATION.bib`](CITATION.bib). Archive metadata are provided in [`.zenodo.json`](.zenodo.json).
 
 The complete scientific equations, fitting algorithm, uncertainty treatment, TLM definition, Mott–Schottky workflow, global DC-series algorithm, and reporting limits are documented in [`docs/SCIENTIFIC_METHODS.md`](docs/SCIENTIFIC_METHODS.md). Validation requirements and known limitations are listed in [`docs/VALIDATION.md`](docs/VALIDATION.md).
 
@@ -11,6 +13,12 @@ The complete scientific equations, fitting algorithm, uncertainty treatment, TLM
 Publication and DOI instructions are provided in [`docs/RELEASE_AND_ZENODO.md`](docs/RELEASE_AND_ZENODO.md).
 
 A polished desktop GUI for electrochemical impedance spectroscopy (EIS) analysis, equivalent-circuit fitting, automatic model comparison, DRT screening, Mott-Schottky semiconductor analysis, batch processing and calibration.
+
+## Citation
+
+Afruz, A., & Kaffash Jamshid, M. (2026). *EIS Gold Studio* (Version 1.13.2) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23154102
+
+The **version DOI**, [10.5281/zenodo.23154102](https://doi.org/10.5281/zenodo.23154102), identifies the exact v1.13.2 archive and should be used when citing this release. The **concept DOI**, [10.5281/zenodo.23154101](https://doi.org/10.5281/zenodo.23154101), covers all archived versions; the badge above uses this stable project link.
 
 ## Highlights
 
